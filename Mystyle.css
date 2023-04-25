@@ -1,0 +1,99 @@
+h1 {
+
+	font-style: italic;
+	font-size: 35;
+	text-align: center;
+}
+
+
+
+
+
+
+*
+{
+	box-sizing: border-box;
+}
+.row {
+  margin: 15px;
+}
+.row > div {
+	position: relative;
+  border: 1px solid black;
+ background-color: #FFE5CC;
+  text-align: center;
+padding: 10px;
+margin: 15px;
+text-align: center;
+
+}
+.container
+{
+	padding: 10px;
+	margin: 50px ;
+	align-content: center;
+
+}
+p
+{
+	margin-top: 25px;
+}
+
+.h2{
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #87CBB9;
+	border: 1px solid black;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	
+	
+}
+.h3{
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #ABC4AA;
+	border: 1px solid black;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	
+}
+.h4{
+	font-family: sans-serif;
+	font-weight: bold;
+	background-color: #C7E9B0;
+	border: 1px solid black;
+		position: absolute;
+	right: 10px;
+	top: 10px;
+	
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1{
+    float: left;    
+      width: 25%;
+  }
+  }
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  .col-md-1{
+    float: left;
+    width: 45%;
+  }
+  
+}
+
+
+@media  (max-width: 991px) {
+  .col-sl-1{
+    float: left;
+    width: 100%;
+    text-align: center;
+    
+  }
+
+ 
+}
